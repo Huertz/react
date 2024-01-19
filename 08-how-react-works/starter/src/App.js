@@ -56,7 +56,6 @@ function Tabbed({ content }) {
           onClick={setActiveTab}
         />
       </div>
-
       {activeTab <= 2 ? (
         <TabContent item={content.at(activeTab)} />
       ) : (
